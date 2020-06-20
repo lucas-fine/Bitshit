@@ -10,8 +10,8 @@ Bishit follows very simple rules. A character followed by a bit will set a varia
 a0    set the value of a to 0, or create it with 0 if it doesn't already exist
 b1    set the value of b to 1, or create it with 1 if it doesn't already exist
 
-c:a=b   compare a equals b, placing the value in c
-d:c!b   compare c does not equal b, placing the value in b
+c:a=b   compare a equals b, placing the result in c
+d:c!b   compare c does not equal b, placing the result in b
 
 [c]   anything between [ and ] gets it's value printed to the screen
 
