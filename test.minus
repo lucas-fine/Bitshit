@@ -1,0 +1,17 @@
+00		set the a variable 0 to 0 and 1 to 1, so we can use ones and zeros like values
+11
+
+a0 	set a to 0
+b1 	anything after a valid line of code is a comment
+c0
+d0
+
++ A line starting with a plus is also a comment
+
+g,		a character preceding a comma takes input and puts it into the variable corresoponding to the character
+
+c:a=g 	if statement. c equals a=g
+
+!a		swap the value of a
+
+[c]	anything between two square brackets gets output
