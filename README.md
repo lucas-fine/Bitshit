@@ -5,6 +5,9 @@ A programming language that can only process bits.
 Bishit follows very simple rules. A character followed by a bit will set a variable to the value of the bit. Variable names cannot be longer than a character, and there must not be any spaces. Anything after the declaration/assignment on a line is classed as a comment.
 
 ```
+00    define 0 = 0 and 1 = 1 makes it so that we can use these values
+11
+
 + A line starting with a plus is a comment
 
 a0    set the value of a to 0, or create it with 0 if it doesn't already exist
