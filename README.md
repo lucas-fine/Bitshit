@@ -2,7 +2,7 @@
 A programming language that can only process bits.
 
 # Example
-Bishit follows very simple rules. A character followed by a bit will set a variable to the value of the bit. Variable names cannot be longer than a character, and there must not be any spaces. Anything after the declaration/assignment is classed as a comment.
+Bishit follows very simple rules. A character followed by a bit will set a variable to the value of the bit. Variable names cannot be longer than a character, and there must not be any spaces. Anything after the declaration/assignment on a line is classed as a comment.
 
 ```
 + A line starting with a plus is a comment
