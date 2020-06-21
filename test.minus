@@ -1,17 +1,18 @@
-00		set the a variable 0 to 0 and 1 to 1, so we can use ones and zeros like values
+00    define 0 = 0 and 1 = 1 makes it so that we can use these values
 11
 
-a0 	set a to 0
-b1 	anything after a valid line of code is a comment
-c0
-d0
++ A line starting with a plus is a comment
 
-+ A line starting with a plus is also a comment
+a0    set the value of a to 0, or create it with 0 if it doesn't already exist
+b1    set the value of b to 1, or create it with 1 if it doesn't already exist
 
-g,		a character preceding a comma takes input and puts it into the variable corresoponding to the character
+c:a=b   compare a equals b, placing the result in c
 
-c:a=g 	if statement. c equals a=g
+d:c!b   does c not equal b, placing the result in b
+e:c&b   does c and b both equal 1, placing the result in e
+f:c|b   does c or b equal 1, placing the result in f
 
-!a		swap the value of a
+[c]   anything between [ and ] gets it's value printed to the screen
 
-[c]	anything between two square brackets gets output
+A,    a character followed by a comma will take input (either 1 or 0) and place it in the variable
+[A]   print e
