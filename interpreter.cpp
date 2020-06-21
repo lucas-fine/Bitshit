@@ -108,6 +108,10 @@ int main(int argc, char* argv[]) {
 							newvar = vars[val1] != vars[val2];
 						}
 
+            if (op == '&') {
+							newvar = vars[val1] == 1 && vars[val2] == 1;
+						}
+
 						vars[code[i]] = newvar;
 
 					} else if (code[i] == '!') {
