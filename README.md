@@ -14,10 +14,14 @@ a0    set the value of a to 0, or create it with 0 if it doesn't already exist
 b1    set the value of b to 1, or create it with 1 if it doesn't already exist
 
 c:a=b   compare a equals b, placing the result in c
-d:c!b   compare c does not equal b, placing the result in b
+
+d:c!b   does c not equal b, placing the result in b
+e:c&b   does c and b both equal 1, placing the result in e
+f:c|b   does c or b equal 1, placing the result in f
 
 [c]   anything between [ and ] gets it's value printed to the screen
 
-e,    a character followed by a comma will take input (either 1 or 0) and place it in the variable
-[e]   print e
+A,    a character followed by a comma will take input (either 1 or 0) and place it in the variable
+[A]   print e
+
 ```
